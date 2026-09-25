@@ -23,19 +23,19 @@ The universal building block for the entire digital system. All future logic str
 * *Status:* Completed & Verified
 * *RTL View:* Look inside the source files to see the structural logic code.
 * *Simulation Waveform:* 
-  ![NAND Gate Waveform](images/nand_waveform.png) (Upload your Vivado simulation screenshot here)
+  ![NAND Gate Test Bench Waveform](Output_images/nand_gate/test_bench.png) (Upload your Vivado simulation screenshot here)
 
 ### 🔹 Milestone 2: 1-Bit Full Adder
 Moving from basic logic to combinational arithmetic. This circuit computes the sum and carry-out of three input bits.
 * *Status:* Completed & Verified
 * *Simulation Waveform:* 
-  ![1-Bit Adder Waveform](images/adder1_waveform.png)
+  ![1-Bit Adder Test Bench Waveform](Output_images/full_adder/tb.png)
 
 ### 🔹 Milestone 3: 8-Bit Adder
 Chaining 1-bit components structurally to handle multi-bit binary math. This represents the baseline for the future Arithmetic Logic Unit (ALU).
 * *Status:* Completed & Verified
 * *Simulation Waveform:* 
-  ![8-Bit Adder Waveform](images/adder8_waveform.png)
+  ![8-Bit Adder Test Bench Waveform](Output_images/full_adder_8bit/tb.png)
 
 ---
 
