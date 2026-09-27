@@ -37,6 +37,15 @@ Chaining 1-bit components structurally to handle multi-bit binary math. This rep
 * *Simulation Waveform:* 
   ![8-Bit Adder Test Bench Waveform](Output_images/full_adder_8bit/tb.png)
 
+###🔹 Milestone 4: 8-Bit Register
+
+Moving from combinational logic to sequential logic by designing an 8-bit register for storing and holding a data word. This introduces clocked storage and forms the foundation for future registers and CPU datapath components.
+
+Status: Completed & Verified
+
+Simulation Waveform:*
+
+
 ---
 
 ## 📈 Future Architecture Roadmap
