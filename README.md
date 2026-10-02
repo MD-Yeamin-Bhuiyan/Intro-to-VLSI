@@ -59,6 +59,11 @@ The NOT gate is constructed using the previously designed NAND gate.
 | 0 | 1 |
 | 1 | 0 |
 
+### Simulation
+
+![NOt Gate Test Bench Waveform](Output_images/not_gate/simulation.png)
+
+
 ---
 
 ## 🔹 Milestone 3: AND Gate
@@ -75,6 +80,10 @@ The AND gate is structurally constructed using NAND gates.
 | 0 | 1 | 0           |
 | 1 | 0 | 0           |
 | 1 | 1 | 1           |
+
+### Simulation
+
+![AND Gate Test Bench Waveform](Output_images/and_gate/tb.png)
 
 ---
 
@@ -93,6 +102,10 @@ The OR gate is structurally constructed using NAND gates.
 | 1 | 0 | 1          |
 | 1 | 1 | 1          |
 
+### Simulation
+
+![OR Gate Test Bench Waveform](Output_images/or_gate/or-gate-tb.png)
+
 ---
 
 ## 🔹 Milestone 5: XOR Gate
@@ -109,6 +122,10 @@ The XOR gate is constructed using previously designed NAND-based logic.
 | 0 | 1 | 1           |
 | 1 | 0 | 1           |
 | 1 | 1 | 0           |
+
+### Simulation
+
+![XOR Gate Test Bench Waveform](Output_images/xor_gate/tb.png)
 
 ---
 
@@ -187,6 +204,10 @@ Because this implementation uses NAND gates, the S and R inputs are **active-low
 | 1 | 0 | 0        | Reset     |
 | 0 | 0 | Invalid  | Invalid   |
 
+### Simulation
+
+![SR Latch Test Bench Waveform](Output_images/sr_latch/output_simulation.png)
+
 ---
 
 ## 🔹 Milestone 9: D Latch
@@ -214,7 +235,7 @@ When `ENABLE = 0`, the latch holds its previous value.
 
 ### Simulation
 
-![D Latch Simulation](Output_images/d_latch/d_latch_output.png)
+![D Latch Test Bench Waveform](Output_images/d_latch/Simulation.png)
 
 ---
 
@@ -236,6 +257,10 @@ The SR flip-flop provides clock-controlled storage based on Set and Reset inputs
 
 `X` means the input is not relevant while the clock is inactive.
 
+### Simulation
+
+![SR Latch Test Bench Waveform](Output_images/sr_latch/output_simulation.png)
+
 ---
 
 ## 🔹 Milestone 11: D Flip-Flop
@@ -254,6 +279,10 @@ The D flip-flop stores the value of `D` at the active clock transition.
 | Active transition    | 1 | 1        | Store 1   |
 
 Unlike a D latch, the output does not continuously follow the input. The input is captured at the clock transition.
+
+### Simulation
+
+![D Flip FLop Test Bench Waveform](Output_images/d_flip_flop/simulation.png)
 
 ---
 
@@ -295,6 +324,10 @@ CLK ────────►│    Slave D Latch │
                       Q
 ```
 
+### Simulation
+
+![D Master Slave Flip FLop Test Bench Waveform](Output_images/d_master_slave/simulation.png)
+
 ---
 
 # 💾 Registers
@@ -313,6 +346,10 @@ The 1-bit register is constructed using one D Master-Slave Flip-Flop.
 | 1 | Hold              | Q        | Hold      |
 | 0 | Active transition | 0        | Store 0   |
 | 1 | Active transition | 1        | Store 1   |
+
+### Simulation
+
+![1bit Register Test Bench Waveform](Output_images/register_1bit/simulation.png)
 
 ---
 
@@ -360,7 +397,7 @@ This moves the project from individual storage elements to storing a complete 8-
 
 ### Simulation
 
-![8-Bit Register Simulation](Output_images/register_8bits/simulation.png)
+![Bits Register Test Bench Waveform](Output_images/register_8bits/simulation.png)
 
 ---
 
