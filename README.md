@@ -259,7 +259,7 @@ The SR flip-flop provides clock-controlled storage based on Set and Reset inputs
 
 ### Simulation
 
-![SR Latch Test Bench Waveform](Output_images/sr_latch/output_simulation.png)
+![SR Flip Flop Test Bench Waveform](Output_images/sr_flip_flop/tb.png)
 
 ---
 
