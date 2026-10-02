@@ -44,6 +44,7 @@ Moving from combinational logic to sequential logic by designing an 8-bit regist
 Status: Completed & Verified
 
 Simulation Waveform:*
+  ![8-Bit Adder Test Bench Waveform](Output_images/register_8bits/simulation.png)
 
 
 ---
