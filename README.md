@@ -572,17 +572,9 @@ After the final instruction, `LDR` at PC address 9, the expected output values a
 
 Place the actual CPU simulation screenshot in the following location, and update the path if your filename differs.
 
-![Set 4 CPU Simulation Waveform](Final_Project/Output_images/cpu_simulation_waveform.png)
+![Set 4 CPU Simulation Waveform](Final_Project/Output/final_result.png)
 
 The waveform should show `CLK`, `RESET`, `PC`, `Q`, `Z`, and `R_DBG` during execution.
-
-**Simulation Result**
-
-If a separate screenshot of the assertion results is available, add it here.
-
-![Set 4 CPU Testbench Result](Final_Project/Output_images/cpu_final_output.png)
-
-*Use the actual simulation screenshots from Vivado. These image paths are examples and should match the files committed to the repository.*
 
 ## Final Project Folder Structure
 
@@ -602,7 +594,7 @@ Final_Project/
 │
 ├── Output_images/
 │   ├── cpu_simulation_waveform.png
-│   └── cpu_final_output.png
+│   
 │
 └── README.md
 ```
